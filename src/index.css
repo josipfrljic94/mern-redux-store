@@ -25,3 +25,36 @@ header a{
   font-size: 1.4rem;
   margin-left: 1.5%;
 }
+.container{
+  width: 100%;
+ 
+min-height: 80vh;
+}
+.products-container{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+.products-container div{
+  height: 350px;
+  width: 250px;
+  box-shadow: 1px 1.2px 1.6px 1.3px#f3f1f1;
+  margin: 0.5rem 0.5rem;
+  
+}
+.products-container div img{
+  height: 80%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.products-container div footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  
+}

@@ -4,57 +4,57 @@
 {
     "id":1,
     "title":"haljina1",
-   " profilUrl":"/detail/haljina1",
+   "profilUrl":"/detail/haljina1",
     "type":"dress",
     "price":230,
     "img":"haljina1",
     "feature":false,
-   " size":["M","S","XL"],
-   " cart":0
+   "size":["M","S","XL"],
+   "cart":0
 },
 {
     "id":2,
     "title":"haljina2",
-   " profilUrl":"/detail/haljina2",
+   "profilUrl":"/detail/haljina2",
     "type":"dress",
     "price":600,
     "img":"haljina2",
     "feature":false,
-   " size":["M","S","L"],
-   " cart":0
+   "size":["M","S","L"],
+   "cart":0
 },
 {
     "id":3,
     "title":"haljina3",
-   " profilUrl":"/detail/haljina3",
+   "profilUrl":"/detail/haljina3",
     "type":"dress",
     "price":400,
     "img":"haljina3",
     "feature":false,
-   " size":["XS","L","XL"],
-   " cart":0
+   "size":["XS","L","XL"],
+   "cart":0
 },
 {
     "id":4,
     "title":"haljina4",
-   " profilUrl":"/detail/haljina4",
+   "profilUrl":"/detail/haljina4",
     "type":"dress",
     "price":430,
     "img":"haljina4",
     "feature":false,
-   " size":["XS","M","XL"],
-   " cart":0
+   "size":["XS","M","XL"],
+   "cart":0
 },
 {
     "id":5,
     "title":"haljina5",
-   " profilUrl":"/detail/haljina5",
+   "profilUrl":"/detail/haljina5",
     "type":"dress",
     "price":720,
     "img":"haljina5",
     "feature":false,
-   " size":["S","M","L","XL"],
-   " cart":0
+   "size":["S","M","L","XL"],
+   "cart":0
     },
     {
         "id":6,
@@ -64,8 +64,8 @@
         "price":240,
         "img":"haljina3",
         "feature":false,
-       " size":["XS","M"],
-       " cart":0
+       "size":["XS","M"],
+       "cart":0
         },
 
         {
@@ -76,8 +76,8 @@
             "price":120,
             "img":"haljina7",
             "feature":false,
-           " size":["XS","M","L"],
-           " cart":0
+           "size":["XS","M","L"],
+           "cart":0
             },
         {
             "id":8,
@@ -87,74 +87,74 @@
             "price":150,
             "img":"bluza1",
             "feature":false,
-           " size":["XS","XL"],
-           " cart":0
+           "size":["XS","XL"],
+           "cart":0
         } ,
         {
             "id":9,
             "title":"bluse2",
-           " profilUrl":"/detail/bluse2",
+           "profilUrl":"/detail/bluse2",
             "type":"bluse",
             "price":200,
             "img":"bluza2",
             "feature":false,
-           " size":["S","M"],
-           " cart":0
+           "size":["S","M"],
+           "cart":0
         } ,  
         {
             "id":10,
             "title":"bluse3",
-           " profilUrl":"/detail/bluse3",
+           "profilUrl":"/detail/bluse3",
             "type":"bluse",
             "price":300,
             "img":"bluza3",
             "feature":false,
-           " size":["XS","M","L","XL"],
-           " cart":0
+           "size":["XS","M","L","XL"],
+           "cart":0
         } , 
         {
             "id":10,
             "title":"bluse4",
-           " profilUrl":"/detail/bluse4",
+           "profilUrl":"/detail/bluse4",
             "type":"bluse",
             "price":110,
             "img":"bluza4",
             "feature":false,
-           " size":["S","M","L"],
-           " cart":0
+           "size":["S","M","L"],
+           "cart":0
         } , 
         {
             "id":11,
             "title":"bluse5",
-           " profilUrl":"/detail/bluse5",
+           "profilUrl":"/detail/bluse5",
             "type":"bluse",
             "price":320,
             "img":"bluza5",
             "feature":false,
-           " size":["L","XL"],
-           " cart":0
+           "size":["L","XL"],
+           "cart":0
         } , 
         {
             "id":12,
             "title":"bluse5",
-           " profilUrl":"/detail/bluse5",
+           "profilUrl":"/detail/bluse5",
             "type":"bluse",
             "price":200,
             "img":"bluza5",
             "feature":false,
-           " size":["XS","M","L","XL"],
-           " cart":0
+           "size":["XS","M","L","XL"],
+           "cart":0
         } ,
         {
             "id":13,
             "title":"bluse6",
-           " profilUrl":"/detail/bluse6",
+           "profilUrl":"/detail/bluse6",
             "type":"bluse",
             "price":200,
             "img":"bluza6",
             "feature":false,
-           " size":["XS","M"],
-           " cart":0
+           "size":["XS","M"],
+           "cart":0
         }
         
       

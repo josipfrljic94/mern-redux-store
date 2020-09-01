@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  
+    font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,11 +24,17 @@ header a{
   font-size: 1.4rem;
   margin-left: 1.5%;
 }
+
+/* MAIN CONTAINER */
 .container{
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
  
 min-height: 80vh;
 }
+
+/* PRODUCTS CONTAINER */
 .products-container{
   height: 100%;
   width: 80%;
@@ -56,5 +61,40 @@ min-height: 80vh;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  
 }
+  
+/* END OF PRODUCTS CONTAINER */
+
+/* FILTERABLE SECTION */
+.filter-section{
+  width: 20%;
+height: 90vh;
+box-shadow: 0.5px 0.7px 0.7px 0.7px #dfdddd;
+ 
+}
+.select-container{
+  width: 100%;
+  color: #07071a;
+
+  display: grid;
+  justify-items: center;
+  padding: 2%;
+  margin: 3% 0;
+}
+.select-container select{
+  width: 80%;
+  box-shadow: 0.5px 1px 2px 1.2px #dfdddd;
+  padding: 3% 0;
+  border: none;
+}
+.select-container h5{
+  text-transform: uppercase;
+  color: #07071a;
+  font-size: 1.2rem;
+  font-weight: 200;
+
+  text-align: center;
+}
+
+
+/* END OF FILTERABLE SECTION */

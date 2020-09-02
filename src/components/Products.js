@@ -14,6 +14,7 @@ export default class Products extends Component {
                     <h3>{product.title}</h3>
                     
                     <h5>{`$${product.price}`}</h5>
+                    <button onClick={()=>this.props.addtocart(product)}  className='btn'>Add To Cart</button>
 
                     </footer>
                    

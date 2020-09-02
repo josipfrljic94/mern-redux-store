@@ -126,7 +126,7 @@ background: #fafafa;
   padding: 3px 0;
 }
 .cart-container .btn:hover{
-  border: none;
+  
   background: #07071a;
   color: #dfdddd;
  
@@ -136,3 +136,40 @@ background: #fafafa;
 
 
 /* END OF FILTERABLE SECTION */
+
+
+/* FORM CONTAINER */
+
+.form-container{
+ 
+  width: 100%;
+  margin-top: 5px;
+}
+.form-container form{
+ 
+  width: 100%;
+ display: grid;
+ justify-items: center;
+}
+.form-container form button{
+  border: 1px solid #07071a;
+  background: #fff;
+  cursor: pointer;
+  padding: 3px 2px;
+  margin-top: 3px;
+}
+.form-container form button:hover{
+  border: none;
+  background: #07071a;
+  color: #dfdddd;
+ 
+}
+.form-group{
+  display: grid;
+  justify-items: center;
+}
+.form-group input{
+  padding: 3%;
+}
+
+/* END OF FORM CONTAINER */

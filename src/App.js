@@ -1,7 +1,8 @@
 import React from 'react';
 import data from './data.json'
 import Products from './components/Products';
-import Filter  from './components/Filter'
+import Filter  from './components/Filter';
+import Cart  from './components/Cart';
 class App extends React.Component {
 constructor(){
   super()
@@ -9,13 +10,15 @@ constructor(){
     products:data.products,
     size:"",
     sort:"",
-    type:""
+    type:"",
+    cartProducts:[]
   };
   
 }
 filtertypes(event){
   if(event.target.value===""){
     this.setState({type:event.target.value,products:data.products})
+    
   }else{
     this.setState({ type:event.target.value,  
        products: data.products.filter(product=>product.type===event.target.value)}
@@ -38,8 +41,9 @@ sortprice=(event)=>{
  let sort= event.target.value
 this.setState((state)=>({
   sort: sort,
-  products: state.products.slice().sort((a,b)=>
-  sort==="lowest" 
+  products: state.products.slice().sort((a,b)=>{
+    return(
+      sort==="lowest" 
     ? a.price >b.price
     ? 1
     :-1
@@ -51,12 +55,36 @@ this.setState((state)=>({
     ? 1
     : -1
     // 
-  )
+  )})
 }))
-
   }
-  
 
+
+  // CART  FUNCTION
+addtocart=(product)=>{
+  const cartProducts= this.state.cartProducts.slice();
+  let inCart= false;
+cartProducts.forEach(item => {
+  if(item.id===product.id){
+    item.cart++;
+    inCart=true;
+   
+  }
+});
+  if(inCart===false){  
+        cartProducts.push({...product,cart:1});
+  }
+  this.setState({cartProducts:cartProducts})
+
+}
+
+removeProduct=(product)=>{
+  const cartProducts= this.state.cartProducts.slice();
+
+this.setState({cartProducts:cartProducts.filter(item=>item.id!== product.id)});
+}
+
+// CART FUNCTIONS
 
 render(){
   return (
@@ -68,10 +96,12 @@ render(){
     <div className='container'>
       <section className='filter-section'>
       <Filter count={this.state.products.length} type={this.state.type} filtertypes={this.filtertypes.bind(this)} sizefilter={this.sizefilter} size={this.state.size} sortprice={this.sortprice} sort={this.state.sort}/>
+      <Cart cartProducts={this.state.cartProducts} removeProduct={this.removeProduct}/>
       </section>
      
 
-     <Products products={this.state.products}/>
+     <Products products={this.state.products} addtocart={this.addtocart}/>
+    
        
       </div>
     </div>

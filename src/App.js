@@ -11,7 +11,7 @@ constructor(){
     size:"",
     sort:"",
     type:"",
-    cartProducts:[]
+    cartProducts:localStorage.getItem("cartProducts") ? JSON.parse(localStorage.getItem("cartProducts")): []
   };
   
 }
@@ -75,16 +75,17 @@ cartProducts.forEach(item => {
         cartProducts.push({...product,cart:1});
   }
   this.setState({cartProducts:cartProducts})
-
+localStorage.setItem("cartProducts", JSON.stringify(cartProducts));
 }
 
 removeProduct=(product)=>{
   const cartProducts= this.state.cartProducts.slice();
 
 this.setState({cartProducts:cartProducts.filter(item=>item.id!== product.id)});
+localStorage.setItem("cartProducts",JSON.stringify(cartProducts.filter(item=>item.id!== product.id)))
 }
 
-// CART FUNCTIONS
+// END CART FUNCTIONS
 
 render(){
   return (

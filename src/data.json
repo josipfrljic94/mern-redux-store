@@ -4,7 +4,6 @@
 {
     "id":1,
     "title":"haljina1",
-   "profilUrl":"/detail/haljina1",
     "type":"dress",
     "price":230,
     "img":"haljina1",
@@ -15,7 +14,6 @@
 {
     "id":2,
     "title":"haljina2",
-   "profilUrl":"/detail/haljina2",
     "type":"dress",
     "price":600,
     "img":"haljina2",
@@ -26,7 +24,6 @@
 {
     "id":3,
     "title":"haljina3",
-   "profilUrl":"/detail/haljina3",
     "type":"dress",
     "price":400,
     "img":"haljina3",
@@ -37,7 +34,7 @@
 {
     "id":4,
     "title":"haljina4",
-   "profilUrl":"/detail/haljina4",
+  
     "type":"dress",
     "price":430,
     "img":"haljina4",
@@ -48,7 +45,7 @@
 {
     "id":5,
     "title":"haljina5",
-   "profilUrl":"/detail/haljina5",
+   
     "type":"dress",
     "price":720,
     "img":"haljina5",
@@ -59,7 +56,7 @@
     {
         "id":6,
         "title":"haljina6",
-       " profilUrl":"/detail/haljina6",
+      
         "type":"dress",
         "price":240,
         "img":"haljina3",
@@ -71,7 +68,7 @@
         {
             "id":7,
             "title":"haljina7",
-           " profilUrl":"/detail/haljina7",
+     
             "type":"dress",
             "price":120,
             "img":"haljina7",
@@ -82,7 +79,7 @@
         {
             "id":8,
             "title":"bluse1",
-           " profilUrl":"/detail/bluse1",
+         
             "type":"bluse",
             "price":150,
             "img":"bluza1",
@@ -93,7 +90,7 @@
         {
             "id":9,
             "title":"bluse2",
-           "profilUrl":"/detail/bluse2",
+       
             "type":"bluse",
             "price":200,
             "img":"bluza2",
@@ -104,7 +101,7 @@
         {
             "id":10,
             "title":"bluse3",
-           "profilUrl":"/detail/bluse3",
+       
             "type":"bluse",
             "price":300,
             "img":"bluza3",
@@ -115,7 +112,7 @@
         {
             "id":10,
             "title":"bluse4",
-           "profilUrl":"/detail/bluse4",
+          
             "type":"bluse",
             "price":110,
             "img":"bluza4",
@@ -126,7 +123,7 @@
         {
             "id":11,
             "title":"bluse5",
-           "profilUrl":"/detail/bluse5",
+         
             "type":"bluse",
             "price":320,
             "img":"bluza5",
@@ -137,7 +134,7 @@
         {
             "id":12,
             "title":"bluse5",
-           "profilUrl":"/detail/bluse5",
+         
             "type":"bluse",
             "price":200,
             "img":"bluza5",
@@ -148,8 +145,7 @@
         {
             "id":13,
             "title":"bluse6",
-           "profilUrl":"/detail/bluse6",
-            "type":"bluse",
+                      "type":"bluse",
             "price":200,
             "img":"bluza6",
             "feature":false,

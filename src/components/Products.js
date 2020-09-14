@@ -19,7 +19,7 @@ import {fetchProducts} from "../actions/getProduct"
               : (
                
              <section className='products-container'>
-                  <h4>{this.props.products.length}</h4>
+             
                 {this.props.products.map(product=>{
             return(
             <div key={`${product.id}and${product.title}`}>

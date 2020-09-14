@@ -1,25 +1,9 @@
 import React, { Component } from 'react'
-import {connect} from "react-redux";
-import {fetchProducts} from "../actions/getProduct"
 
-
- class Products extends Component {
-    
-     
-     componentDidMount(){
-         this.props.fetchProducts();
-     }
+export default class Products extends Component {
     render() {
         return (
-
-           
-            <div style={{width:"80%"}}>
-               
-              {!this.props.products ? (<h1>Loading...</h1>) 
-              : (
-               
-             <section className='products-container'>
-                  <h3>{this.props.products.length}</h3>
+            <section className='products-container'>
                 {this.props.products.map(product=>{
             return(
             <div key={`${product.id}and${product.title}`}>
@@ -39,12 +23,6 @@ import {fetchProducts} from "../actions/getProduct"
                  )
             })}
             </section>
-            )}
-            </div>
-            
         )
     }
 }
-export default connect((state)=>({products:state.products.filteredItems}),{
-    fetchProducts})
-    (Products);

@@ -15,7 +15,7 @@ import {fetchProducts} from "../actions/getProduct"
            
             <div style={{width:"80%"}}>
                
-              {!this.props.products ? (<h1>Loading...</h1>) 
+              {!this.props.products ? (<h2>Loading...</h2>) 
               : (
                
              <section className='products-container'>
